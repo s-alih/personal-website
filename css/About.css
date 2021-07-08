@@ -16,12 +16,10 @@
   padding: 1em 25%;
   font: 300 20px "Oswald", sans-serif;
   line-height: 1.5em;
-
 }
 
-@media  screen and (max-width:620px) {
-  .container{
+@media screen and (max-width: 620px) {
+  .container {
     padding: 0 30px;
   }
-  
 }
