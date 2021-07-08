@@ -2,14 +2,12 @@
 
 <head>
 	<meta charset="UTF-8">
-
+	<link rel='stylesheet' href="./index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<title>lonebots</title>
 	<link rel='icon' href="./images/logo.jpeg" type='image/x-icon'>
-	<link rel='stylesheet' href="./index.css">
-	<link rel='stylesheet' href="./css/nav.css">
-
+	<script type="text/javascript" src="./js/nav.js"></script>
 </head>
 
 <body>
@@ -46,7 +44,7 @@
 		<div class="profile">
 			<img class="avatar" src="./images/profilepic.jpeg" alt="lonebots" />
 		</div>
-		<!-- <div class="username">@lonebots</div> -->
+		<div class="username">@lonebots</div>
 		<div clas="social">
 			<img class="button twitter"
 				src="http://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_six-128.png" alt="Twitter" />
@@ -58,8 +56,12 @@
 			My Name is &nbsp<span>Jishnu</span>, I am a devloper
 		</div>
 	</div>
+	<script>
+		$('.handle').on('click', function () {
+			$('nav ul').toggleClass('showing');
+		});
+	</script>
 
-	<script type="text/javascript" src="./js/nav.js" />
 </body>
 
 </html>
