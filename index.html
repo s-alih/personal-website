@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel='stylesheet' href="./index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>lonebots</title>
+	<link rel='icon' href="./images/logo.jpeg" type='image/x-icon'>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<a href="#">
+				<li>Home</li>
+			</a>
+			<a href="./pages/About.html">
+				<li>About</li>
+			</a>
+			<a href="./pages/Project.html">
+				<li>Project</li>
+			</a>
+			<a href="./pages/contact.html">
+				<li>Contact</li>
+			</a>
+		</ul>
+		<div class="handle">
+			<img class="logo" src="./images/logo.jpeg">
+			<div class="menu_icon">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</nav>
+	<section>
+		<div class="container">
+
+		</div>
+	</section>
+	<div class="cover">
+		<div class="profile">
+			<img class="avatar" src="./images/profilepic.jpeg" alt="lonebots" />
+		</div>
+		<!-- <div class="username">@lonebots</div> -->
+		<div clas="social">
+			<img class="button twitter"
+				src="http://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_six-128.png" alt="Twitter" />
+			<img class="button github"
+				src="http://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_six_gray-128.png" alt="GitHub" />
+
+		</div>
+		<div class="description">
+			My Name is &nbsp<span>Jishnu</span>, I am a devloper
+		</div>
+	</div>
+	<script>
+		$('.handle').on('click', function () {
+			$('nav ul').toggleClass('showing');
+		});
+	</script>
+
+</body>
+
+</html>
